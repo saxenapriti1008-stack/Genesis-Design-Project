@@ -260,6 +260,53 @@ footer {
   font-size: 16px;
 }
 
+.project-detail {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+.project-detail .project-header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 40px 1fr;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.project-detail .project-header h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.project-detail .project-header p {
+  line-height: 1.6;
+  color: #555;
+}
+.project-detail .project-header .project-meta {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.project-detail .project-header .project-meta p {
+  margin-bottom: 8px;
+}
+.project-detail .project-header .project-meta strong {
+  font-weight: bold;
+}
+.project-detail .project-main-img img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+.project-detail .project-gallery {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.project-detail .project-gallery img {
+  width: 100%;
+  border-radius: 12px;
+}
+
 body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
