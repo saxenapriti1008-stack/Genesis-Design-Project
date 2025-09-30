@@ -1,0 +1,13 @@
+@import "variables";
+@import "base";
+@import "header";
+@import "hero";
+@import "gallery";
+@import "services";
+@import "awards";
+@import "footer";
+
+body{
+  justify-content: center;
+  margin: 40px;
+}

@@ -1,0 +1,17 @@
+footer {
+  border-top: 1px solid #e9e9e9;
+  margin-top: 60px;
+  padding: 18px 0;
+  }
+
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .footer-links { display: flex; gap: 18px; align-items: center; }
+  .social-icons { display: flex; gap: 12px; }
+  .social-icons a { color: $secondary-color; font-size: 16px; }
+  

@@ -1,0 +1,13 @@
+.hero {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+  margin-top: 40px;
+
+  .hero-left { max-width: 650px; }
+  .subtitle { color: $accent-color; margin-bottom: 12px; font-weight:600; }
+  h1 { font-size: 40px; line-height: 1.15; font-weight: 700; }
+  .accent { color: $accent-color; font-weight:700; }
+  .hero-right { text-align: right; color: $secondary-color; align-self: end; }
+}
+

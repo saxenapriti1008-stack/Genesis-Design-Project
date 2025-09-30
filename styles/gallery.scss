@@ -1,0 +1,28 @@
+.gallery { margin-top: 48px; }
+
+/* responsive masonry-like grid using spans */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 140px;
+  gap: 12px;
+}
+
+
+.item1  { grid-row: span 3; }  
+.item2  { grid-row: span 2; }
+.item3  { grid-row: span 2; }
+.item4  { grid-row: span 3; }
+.item5  { grid-row: span 2; }
+.item6  { grid-row: span 1; }
+.item7  { grid-row: span 2; }
+.item8  { grid-row: span 3; }
+.item9  { grid-row: span 2; }
+.item10 { grid-row: span 1; }
+.item11 { grid-row: span 2; }
+.item12 { grid-row: span 1; }
+
+.grid img { width: 100%; height: 100%; object-fit: cover; border-radius: 6px; }
+
+
+

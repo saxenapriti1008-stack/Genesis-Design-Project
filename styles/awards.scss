@@ -1,0 +1,22 @@
+.awards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  margin-top: 60px;
+}
+
+.award-block {
+  h3 { font-size: 20px; margin-bottom: 16px; }
+  .award-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr auto;
+    gap: 12px;
+    align-items: start;
+    padding: 12px 0;
+    border-top: 1px solid #eee;
+  }
+  .award-title { font-weight: 700; color: $primary-color; }
+  p { margin: 0; color: $secondary-color; }
+  .year { color: $secondary-color; font-weight: 600; }
+}
+
